@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Website Gym Wanita</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #ffc0cb; 
+    }
+    .header-img {
+      background-image: url(gym.jpg); 
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+    }
+    .program-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .pricing-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-pink bg-pink">
+    <a class="navbar-brand" href="#">Empower Gym Wanita</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#membership">Keanggotaan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header dengan gambar latar -->
+  <header class="header-img text-white text-center d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold">Empower Gym Wanita</h1>
+      <p class="lead">Wanita Kuat, Komunitas Lebih Kuat</p>
+      <a href="#pricing" class="btn btn-primary btn-lg mt-3">Daftar Sekarang</a>
+    </div>
+  </header>
+
+  <!-- Bagian Utama -->
+  <section class="container py-5 text-center">
+    <h2 class="mb-4">Program Khusus untuk Wanita</h2>
+    <p class="mb-5">Memberdayakan wanita melalui kebugaran, kesehatan, dan komunitas. Program kami dirancang untuk membantu Anda mencapai versi terbaik dari diri Anda dalam lingkungan yang nyaman dan mendukung.</p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <img src="Personal Training.jpeg" alt="Pelatihan Pribadi" class="program-img mb-3">
+        <h3>Pelatihan Pribadi untuk Wanita</h3>
+        <p>Bekerja dengan pelatih yang memahami tujuan dan tantangan Anda.</p>
+        <a href="#" class="btn btn-outline-dark">Pelajari Lebih Lanjut</a>
+      </div>
+      <div class="col-md-4">
+        <img src="Group Classes.jpeg" alt="Kelas Kelompok" class="program-img mb-3">
+        <h3>Kelas Kelompok Khusus Wanita</h3>
+        <p>Bergabunglah dengan kelas kelompok yang menyenangkan dan penuh energi untuk wanita dari segala level kebugaran.</p>
+        <a href="#" class="btn btn-outline-dark">Lihat Jadwal</a>
+      </div>
+      <div class="col-md-4">
+        <img src="Health & Wellness.png" alt="Kesehatan & Kebugaran" class="program-img mb-3">
+        <h3>Lokakarya Kesehatan & Kebugaran</h3>
+        <p>Ikuti lokakarya tentang nutrisi, kesehatan mental, dan perawatan diri.</p>
+        <a href="#" class="btn btn-outline-dark">Temukan Lebih Banyak</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Harga -->
+  <section id="pricing" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 id="membership" class="mb-4">Paket Keanggotaan</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Dasar</h4>
+              <img src="paket dasar.jpeg" alt="Paket Dasar" class="pricing-img mx-auto mt-3">
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Rp 250.000 <small class="text-muted">/ bulan</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Akses ke gym</li>
+                <li>Wi-Fi gratis</li>
+                <li>Lingkungan khusus wanita</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Daftar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Standar</h4>
+              <img src="standar.jpeg" alt="Paket Standar" class="pricing-img mx-auto mt-3">
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Rp 400.000 <small class="text-muted">/ bulan</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Akses ke gym & kelas</li>
+                <li>Loker pribadi</li>
+                <li>Kelas kelompok khusus wanita</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">Daftar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Premium</h4>
+              <img src="premium.jpeg" alt="Paket Premium" class="pricing-img mx-auto mt-3">
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Rp 600.000 <small class="text-muted">/ bulan</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Semua manfaat Standar</li>
+                <li>Pelatih Pribadi untuk Wanita</li>
+                <li>Akses eksklusif ke Lounge Kesehatan Wanita</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">Daftar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2024 Empower Gym Wanita. Semua hak dilindungi undang-undang.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS, Popper.js, dan jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
